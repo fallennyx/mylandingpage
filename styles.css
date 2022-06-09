@@ -5,8 +5,6 @@ body{
     display: flex;
     background-color: black;
     justify-content: space-between;
-   
-    
 }
 img{
     
@@ -18,5 +16,37 @@ width: auto;
    display: flex;
    justify-content: space-between;
    font-size: smaller;
-   
 }
+
+
+
+
+
+.dedicate{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.secondsection{
+    display: flex;
+    background: black;
+    color: white;
+}
+    .group{
+        height: 100px;
+        width: auto;
+        grid-column: 2;
+        
+    }
+    button{
+      height: 45px;
+      width: auto;
+      
+    }
+    button{
+        grid-column: 1;
+    }
+
+    
+}
+
+

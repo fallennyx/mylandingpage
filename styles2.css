@@ -1,0 +1,44 @@
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+img{
+    height: 30px;
+    width: auto;
+}
+
+.headertext{
+    
+    white-space: nowrap;
+    font-size: smaller;
+    color: white;
+
+}
+.secondsection{
+    display: grid;
+    background-color: black;
+    color: white;
+    grid-template-columns: 50% 50%;   
+}
+.dedicate{
+font-size: 48px;
+font-weight: bolder;
+height: 139px;
+width:auto
+}
+.members{
+grid-column: 1;
+
+}
+.group{
+grid-column: 2;
+
+}
+button{
+grid-column: 1;
+
+
+}
